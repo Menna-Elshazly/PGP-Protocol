@@ -10,12 +10,11 @@ from pyDes import *
 HOST = '127.0.0.1'  # The server's hostname or IP address
 PORT = 65432        # The port used by the server
 msg ='Hello Bob'
-email ='Dear Mina Khalil. Hope this email finds you well always inshalah .. Regards'
 port1 = 465  # For SSL
 sender_email = input("Your Email : ")
 password = input("Enter Your Password : ")
 receiver_email = input("Receiver Email : ")
-
+email = input("Your Message :")
 
 
 def generate_Ks (bit_length):
